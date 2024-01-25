@@ -7,6 +7,7 @@
           <option value="fr">fr</option>
         </select>
         <p>{{ $t('welcome') }}</p>
+        {{ $store.getters.getCurrentLanguage }}
       </form>
     </div>
     <NuxtWelcome />

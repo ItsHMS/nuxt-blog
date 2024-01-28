@@ -1,0 +1,24 @@
+{
+    "welcome": "Welcome",
+    "common": {
+        "title": "My Blog",
+        "home": "Home",
+        "addPost": "Add Post",
+        "language": "Language"
+    },
+    "home": {
+        "title": "Welcome to My Blog"
+    },
+    "post": {
+        "title": "Title",
+        "author": "Author",
+        "content": "Content",
+        "description":"Description",
+        "category": "Category",
+        "uncategorized": "Uncategorized",
+        "news": "News",
+        "tutorials": "Tutorials",
+        "reviews": "Reviews",
+        "submit": "Submit"
+    }
+}

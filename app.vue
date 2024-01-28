@@ -1,18 +1,19 @@
 <template>
-  <div>
-    <div>
-      <form>
-        <select v-model="locale">
-          <option value="en">en</option>
-          <option value="fr">fr</option>
-        </select>
-        <p>{{ $t('welcome') }}</p>
-        {{ $store.getters.getCurrentLanguage }}
-      </form>
-    </div>
-    <NuxtWelcome />
-  </div>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
-<script setup>
-const { locale } = useI18n()
-</script>
+
+<style>
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 15px
+  }
+}
+
+@media screen and (max-width: 465px) {
+  html {
+    font-size: 14px
+  }
+}
+</style>

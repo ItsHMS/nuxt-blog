@@ -1,0 +1,24 @@
+{
+    "welcome": "Bienvenue",
+    "common": {
+        "title": "Mon Blog",
+        "home": "Accueil",
+        "addPost": "Ajouter un article",
+        "language": "Langue"
+    },
+    "home": {
+        "title": "Bienvenue sur mon blog"
+    },
+    "post": {
+        "title": "Titre",
+        "author": "Auteur",
+        "content": "Contenu",
+        "description": "Description",
+        "category": "Catégorie",
+        "uncategorized": "Non catégorisé",
+        "news": "Nouvelles",
+        "tutorials": "Tutoriels",
+        "reviews": "Avis",
+        "submit": "Soumettre"
+    }
+}
